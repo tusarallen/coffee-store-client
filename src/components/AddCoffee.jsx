@@ -38,13 +38,14 @@ const AddCoffee = () => {
         if (data.insertedId) {
           Swal.fire({
             title: "Success!",
-            text: "User added successfully",
+            text: "Coffee added successfully",
             icon: "success",
             confirmButtonText: "Cool",
           });
         }
       });
   };
+
   return (
     <div className="bg-[#F4F3F0] p-24 text-center">
       <h2 className="text-3xl font-extrabold  md:mb-16">Add a Coffee</h2>
